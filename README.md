@@ -35,15 +35,53 @@ Airlines/
 
  -----------
  
-Getting Started (طريقة التشغيل)
+Getting Started 
 
-### Prerequisites (متطلبات التشغيل)
+### Prerequisites 
 - A C++ compiler (GCC, Clang, or MSVC).
 - Windows environment (recommended).
 
-### Build and Run (خطوات التحميل والتشغيل)
+### Build and Run 
 
-1. **Clone the repository (تحميل المشروع):**
+1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/mostafa2ahmed2007/Airlines.git](https://github.com/mostafa2ahmed2007/Airlines.git)
+   git clone [https://github.com/gamalAhmed12/Airlines.git](https://github.com/gamalAhmed12/Airlines.git)
    cd Airlines
+
+---
+
+2. **Compile the Application:**
+Compile the code from the **root directory** of the project so the application can correctly resolve the relative file paths in the `data/` directory:
+
+```bash
+g++ src/main.cpp -o airlines.exe
+```
+
+---
+
+4. **Run the Binary:**
+Execute the compiled binary from the terminal:
+
+```bash
+./airlines.exe
+```
+*(or simply type `airlines.exe` in Windows Command Prompt)*
+
+---
+
+## Default Administrator Credentials
+
+To access the administrator dashboard upon startup:
+- **Username:** `admin`
+- **Password:** `1234`
+
+---
+
+##  Notes on Data Saving
+- All active operations (new flights, added planes, ticket reservations) are maintained in memory during execution.
+- Data is committed to the files inside `data/` only when gracefully exiting the program via option `0. Exit` from the main menu.
+
+---
+
+##  License
+This project is licensed under the MIT License.
