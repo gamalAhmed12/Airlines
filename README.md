@@ -4,7 +4,7 @@ A command-line flight reservation and fleet management system written in C++. Th
 
 ## Features
 
-- **Fleet Management:** Add, update, and list aircraft models, codes, row capacities, and seat layouts.
+- **Flight Management:** Add, update, and list aircraft models, codes, row capacities, and seat layouts.
 - **Flight Scheduling:** Create and modify flight records, link flights to specific aircraft codes, and initialize seat maps.
 - **Reservation System:** Interactive 2D seat map display (`O` for available, `X` for occupied) with validation for row and seat boundaries.
 - **Search & Filtering:** Query aircraft by model/code or search flights by departure city, destination, or date.
