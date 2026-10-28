@@ -31,3 +31,19 @@ Airlines/
 │   ├── booking.h           # Seat map rendering and booking logic
 │   └── main.cpp            # Entry point and menu loop
 └── README.md
+```
+
+ -----------
+ 
+Getting Started (طريقة التشغيل)
+
+### Prerequisites (متطلبات التشغيل)
+- A C++ compiler (GCC, Clang, or MSVC).
+- Windows environment (recommended).
+
+### Build and Run (خطوات التحميل والتشغيل)
+
+1. **Clone the repository (تحميل المشروع):**
+   ```bash
+   git clone [https://github.com/mostafa2ahmed2007/Airlines.git](https://github.com/mostafa2ahmed2007/Airlines.git)
+   cd Airlines
