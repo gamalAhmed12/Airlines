@@ -1,6 +1,6 @@
 # Airlines Management System
 
-A command-line flight reservation and fleet management system written in C++. The application uses a modular header architecture and flat-file storage to handle flight scheduling, aircraft configurations, and passenger seat bookings.
+A command-line flight reservation and fleet management system written in C++ using Structured Programming concepts. The application uses a modular header architecture and flat-file storage to handle flight scheduling, aircraft configurations, and passenger seat bookings.
 
 ## Features
 
