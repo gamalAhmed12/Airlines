@@ -1,9 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project16.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  main.cpp
-C:\Users\adham\source\repos\Project16\Project16\main.cpp(138,53): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\adham\source\repos\Project16\Project16\main.cpp(171,53): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\adham\source\repos\Project16\Project16\main.cpp(350,49): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\adham\source\repos\Project16\Project16\main.cpp(571,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\adham\source\repos\Project16\Project16\main.cpp(580,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\adham\source\repos\Project16\Project16\main.cpp(597,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Project16.vcxproj -> C:\Users\adham\source\repos\Project16\x64\Debug\Sp_Project.exe
